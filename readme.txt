@@ -1,5 +1,5 @@
-1. 首先把novel.get_many()方法取消注释,把novel.download_many加上注释，运行一次，获得所需的网页。
-2. 然后把novel.get_many方法加上注释，把novel.download_many方法取消注释，再运行一次，即可开始爬取。
+1. run:
+python novel_crawl.py
 ====================================================================
 参数：
 concur_req: 并行度，越多下载得越快，但是对于网站的负担就越大，太快有可能对网站发起ddos攻击。
